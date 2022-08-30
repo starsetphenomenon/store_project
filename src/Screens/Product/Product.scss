@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    background: #373737;
+}
+
+.product-container {
+    width: 1290px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+.product-header-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.product-header-row.reverse {
+    flex-direction: row-reverse;
+
+    .product-header-description {
+        margin-left: 0;
+        margin-right: 140px;
+    }
+}
+
+.product-header-description {
+    max-width: 410px;
+    margin-left: 140px;
+}
+
+.product-header-title {
+    max-width: 350px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.product-header-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.product-image {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.videoTag {
+    width: 100%;
+    height: 1020px;
+}
+
+.chars {
+    padding: 90px 0;
+    background-color: #272727
+}
+
+.chars-wrap {
+    margin: 0 auto;
+    max-width: 1076px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272727;
+}
+
+.chars-image-wrap {
+    width: 407px;
+    height: 620px;
+    background-color: #646464;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img {
+    width: 90%;
+
+    }
+}
+
+.chars-description {
+    min-width: 420px;
+
+    h3 {
+        font-family: 'Jura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+
+    .redline {
+        background-color: #C80000ed;
+        height: 2px;
+        max-width: 195px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        border-bottom: 1px solid #4F4F4F;
+        padding-bottom: 8px;
+        padding-top: 15px;
+    }
+
+    li:last-child {
+        margin-bottom: 20px;
+    }
+
+    .line {
+        margin-top: 10px;
+        background-color: #4F4F4F;
+    }
+
+}
+
+.chars-title {
+    margin-bottom: 10px;
+}
+
+.more-chars {
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 15px;
+    }
+
+    :hover {
+        color: #C80000;
+        transition-duration: 0.3s;
+        cursor: pointer;
+
+    }
+}
+
+svg :hover {
+    fill: #C80000;
+    // color: red;     
+}
+
+.hidden {
+    display: none;
+}
+
+
+.also {
+    padding: 140px 0 30px 0;
+}
+
+.also-container {
+    width: 1290px;
+    margin: 0 auto;
+
+}
+
+.also-title {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #C80000;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.also-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    gap: 30px;
+}
+
+.email-section {
+    
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+
+    h3 {
+        margin-bottom: 30px;
+        font-family: 'Jura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+    }
+
+}
+
+.email-section input {
+    border: none;
+    display: flex;
+    color: #fff;
+    background-color: #272727;
+    height: 60px;
+    width: 275px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 20px;
+    display: block;
+    margin: 0 auto;
+
+    ::placeholder {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+
+}
+
+.input-block {
+    position: relative;
+    width: 295px;
+    margin: 0 auto;
+}
+
+.email-section-img {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    &:hover {
+        fill: #C80000;
+    }
+}
+
+
+

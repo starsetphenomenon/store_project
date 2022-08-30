@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Catalog from "./Screens/Catalog/Catalog";
 import Menu from './Components/Menu/Menu';
 import Cart from './Screens/Cart/Cart';
+import Product from './Screens/Product/Product';
 import { useState } from 'react';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
     <div className="App">
       {menu && <Menu menuVisibility={handleMenuVisibility} />}
       <Header menuVisibility={handleMenuVisibility} />
+      <Product />
       <Cart data={cartItems} />
       <Main />
       <Catalog />
